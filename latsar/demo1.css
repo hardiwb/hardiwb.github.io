@@ -18,9 +18,9 @@ height:auto;
 }
 
 .bb-custom-wrapper .bb-bookblock { height:auto;
-	box-shadow: 0 12px 20px -10px rgba(81,64,49,0.6);
+	box-shadow: 0 0px 0px 0px rgba(81,64,49,0.6);
 }
-
+/*box-shadow: 0 12px 20px -10px rgba(81,64,49,0.6)*/
 .bb-custom-wrapper h3 {
 	font-size: 1.4em;
 	font-weight: 300;

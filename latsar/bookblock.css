@@ -107,7 +107,7 @@
 
 /* Content display */
 .bb-content {
-	background: #f8f9fa;
+	background: #fff;
 }
 
 .bb-vertical .bb-front .bb-content {
@@ -169,7 +169,7 @@
 	top: 0;
 	left: 0;
 	display: none;
-	background: #f8f9fa;
+	background: #fff;
 }
 
 /* No JS */

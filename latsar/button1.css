@@ -41,14 +41,16 @@
 	height: 30px;
 	text-align: center;
 	border-radius: 10px;
-	background: #3b88c3;
+	background: $(main.color);
 	color: #fff;
 	font-size: 0;
 	margin: 2px;
+	transition: .17s ease;
 }
 
 .bb-custom-wrapper nav a:hover {
-	opacity: 0.6;
+	background: $(main.color);
+	transition: .17s ease;
 }
 
 .bb-custom-wrapper nav a:active {

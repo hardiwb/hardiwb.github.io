@@ -41,7 +41,7 @@
 	height: 30px;
 	text-align: center;
 	border-radius: 10px;
-	background: $(main.color);
+	background: #3b88c3;
 	color: #fff;
 	font-size: 0;
 	margin: 2px;
@@ -49,7 +49,7 @@
 }
 
 .bb-custom-wrapper nav a:hover {
-	background: $(main.color);
+	background: #eeeeee;
 	transition: .17s ease;
 }
 

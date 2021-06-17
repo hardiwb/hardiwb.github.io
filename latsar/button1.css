@@ -51,6 +51,11 @@
 	opacity: 0.6;
 }
 
+.bb-custom-wrapper nav a:active {
+	position:relative;
+	top:1px;
+}
+
 .bb-custom-icon:before {
 	font-family: 'arrows';
 	speak: none;

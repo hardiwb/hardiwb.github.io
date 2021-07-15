@@ -452,6 +452,11 @@
 		toggleMenu.classList.toggle('active')
 		},
 		
+		shadow : function() {
+		const toggleMenu = document.querySelector('.bb-item');
+		toggleMenu.classList.toggle('filter')
+		},
+		
 		// public method: goes to the first page
 		first : function() {
 			this.jump( 1 );

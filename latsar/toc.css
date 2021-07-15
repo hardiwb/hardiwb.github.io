@@ -21,7 +21,7 @@
   left: 50%;
   -ms-transform: translate(-50%, 5%);
   transform: translate(-50%, 5%);
-  max-height:100%;  // you choice of number in pixels
+  max-height:75%;  // you choice of number in pixels
   overflow: auto;
   overflow-x:hidden; // hides the horizontal scroll
   overflow-y:auto;   // enables the vertical scroll

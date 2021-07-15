@@ -453,8 +453,8 @@
 		},
 		
 		shadows : function() {
-		const toggleMenu = document.querySelector('.bb-item');
-		toggleMenu.classList.toggle('filter')
+		const toggleS = document.querySelector('.squareshadow');
+		toggleS.classList.toggle('active')
 		},
 		
 		// public method: goes to the first page

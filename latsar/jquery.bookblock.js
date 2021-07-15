@@ -447,6 +447,11 @@
 		last : function() {
 			this.jump( this.itemsCount );
 		},
+		menu : function() {
+		const toggleMenu = document.querySelector('.toccontainer-content');
+		toggleMenu.classList.toggle('active')
+		},
+		
 		// public method: goes to the first page
 		first : function() {
 			this.jump( 1 );

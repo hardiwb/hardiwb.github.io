@@ -58,9 +58,10 @@
  
 /* Handle */
 .toccontainer-content::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: transparent; 
 }
 
 /* Handle on hover */
-.toccontainer-content::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+.toccontainer-content:hover + .toccontainer-content::-webkit-scrollbar-thumb {
+  background: #888; 
+}

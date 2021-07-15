@@ -7,7 +7,7 @@ var Page = (function() {
 					$navFirst : $( '#bb-nav-first' ),
 					$navLast : $( '#bb-nav-last' ),
 					$navMenu : $( '#tblcontents' ),
-					$navBm : $( 'span' ),					
+					$navBm : $( '#mytoccontainer > span' ),					
 				},
 	
 	init = function() {

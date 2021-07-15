@@ -23,7 +23,7 @@
   left: 50%;
   -ms-transform: translate(-50%, 5%);
   transform: translate(-50%, 5%);
-  max-height:75vh; 
+  max-height:50%; 
   overflow: auto;
   overflow-x:hidden;
   overflow-y:auto;
@@ -45,6 +45,11 @@
 	-ms-transform: translate(-50%, -0%);
 	transform: translate(-50%, -0%);
 
+}
+@media screen and (max-width: 880px) {
+	.toccontainer-content {
+		max-height:80%;
+	}
 }
 
 @media (pointer: fine) {

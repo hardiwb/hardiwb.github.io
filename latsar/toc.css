@@ -72,3 +72,11 @@
   background: #888; 
 }
 }
+
+.bb-item.filter {
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    -o-filter: brightness(50%);
+    -ms-filter: brightness(50%);
+    filter: brightness(50%);
+}

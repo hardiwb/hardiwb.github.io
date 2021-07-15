@@ -71,6 +71,9 @@
   opacity: 1;
   background: #888; 
 }
+.toccontainer-content {
+  border-style: solid;
+}
 }
 
 .bb-item.filter {

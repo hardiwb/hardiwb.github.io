@@ -51,7 +51,7 @@ var Page = (function() {
 						
 						config.$navBm.on( 'click', function() {
 							var $el = $( this ),
-								idx = $el.attr('id'),
+								idx = $el.attr('value'),
 								newidx =  parseInt(idx),
 								jump = function() {};
 							config.$bookBlock.bookblock( 'jump', newidx );

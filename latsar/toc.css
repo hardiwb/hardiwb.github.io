@@ -23,10 +23,10 @@
   left: 50%;
   -ms-transform: translate(-50%, 5%);
   transform: translate(-50%, 5%);
-  max-height:75%;  // you choice of number in pixels
+  max-height:75vh; 
   overflow: auto;
-  overflow-x:hidden; // hides the horizontal scroll
-  overflow-y:auto;   // enables the vertical scroll
+  overflow-x:hidden;
+  overflow-y:auto;
 }
 
 .toccontainer-content span {

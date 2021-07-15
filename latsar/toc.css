@@ -24,7 +24,7 @@
   max-height:75%;  // you choice of number in pixels
   overflow: auto;
   overflow-x:hidden; // hides the horizontal scroll
-  overflow-y:hidden;   // enables the vertical scroll
+  overflow-y:auto;   // enables the vertical scroll
 }
 
 .toccontainer-content span {

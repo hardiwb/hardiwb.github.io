@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'arrows';
-	src:url('https://hardiwb.github.io/latsar/arrows/arrows.eot');
-	src:url('https://hardiwb.github.io/latsar/arrows/arrows.eot?#iefix') format('embedded-opentype'),
-		url('https://hardiwb.github.io/latsar/arrows/arrows.woff') format('woff'),
-		url('https://hardiwb.github.io/latsar/arrows/arrows.ttf') format('truetype'),
-		url('https://hardiwb.github.io/latsar/arrows/arrows.svg#arrows') format('svg');
+	src:url('https://hardiwb.github.io/latsar/arrows/icomoon.eot');
+	src:url('https://hardiwb.github.io/latsar/arrows/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('https://hardiwb.github.io/latsar/arrows/icomoon.woff') format('woff'),
+		url('https://hardiwb.github.io/latsar/arrows/icomoon.ttf') format('truetype'),
+		url('https://hardiwb.github.io/latsar/arrows/icomoon.svg#arrows') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -80,6 +80,10 @@
 .bb-custom-icon-arrow-left:before,
 .bb-custom-icon-arrow-right:before {
 	content: "\e003";
+}
+
+.bb-custom-icon-list:before {
+  content: "\e900";
 }
 
 .bb-custom-icon-arrow-left:before,

@@ -81,8 +81,8 @@
     filter: brightness(50%);
 }
 .squareshadow {
-  height: 300px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
   transition: 0.25s;
   display: block;
   visibility: hidden;

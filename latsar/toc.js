@@ -48,7 +48,7 @@ var Page = (function() {
 							return false;
 						} );
 						
-						config.$navBm.on( 'click touchstart', function() {
+						config.$navBm.on( 'click', function() {
 							var $el = $( this ),
 								idx = $el.attr('id'),
 								newidx =  parseInt(idx),

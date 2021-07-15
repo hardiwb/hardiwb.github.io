@@ -48,7 +48,16 @@
     display: none;
 }
 
+.toccontainer-content::-webkit-scrollbar:hover {
+    display: none;
+
 .toccontainer-content {
 	  -ms-overflow-style: none;
   scrollbar-width: none; 
 	}
+	
+.toccontainer-content:hover {
+	  -ms-overflow-style: none;
+  scrollbar-width: 5px; 
+	}
+	

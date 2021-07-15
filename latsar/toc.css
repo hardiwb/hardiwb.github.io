@@ -59,12 +59,14 @@
 /* Handle */
 .toccontainer-content::-webkit-scrollbar-thumb {
   transition: 0.25s;
+  opacity: 0;
   background: transparent;
   border-radius: 3px;
 }
 
 /* Handle on hover */
 .toccontainer-content:hover::-webkit-scrollbar-thumb {
+  opacity: 1;
   background: #888; 
 }
 }

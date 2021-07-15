@@ -62,6 +62,6 @@
 }
 
 /* Handle on hover */
-.toccontainer-content:hover + .toccontainer-content::-webkit-scrollbar-thumb {
+.toccontainer-content:hover::-webkit-scrollbar-thumb {
   background: #888; 
 }

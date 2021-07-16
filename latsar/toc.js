@@ -46,6 +46,7 @@ var Page = (function() {
 						config.$navMenu.on( 'click touchend', function() {
 							config.$bookBlock.bookblock( 'menu' );
 							config.$bookBlock.bookblock( 'shadows' );
+							config.$bookBlock.bookblock( 'menuactive' );
 							return false;
 						} );
 						
@@ -57,6 +58,7 @@ var Page = (function() {
 							config.$bookBlock.bookblock( 'jump', newidx );
 							config.$bookBlock.bookblock( 'menu' );
 							config.$bookBlock.bookblock( 'shadows' );
+							config.$bookBlock.bookblock( 'menuactive' );
 							return false;
 						} );
 						

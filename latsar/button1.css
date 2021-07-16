@@ -86,6 +86,10 @@
   content: "\e900";
 }
 
+.bb-custom-icon-list.active:before {
+  content: "\ea0f";
+}
+
 .bb-custom-icon-arrow-left:before,
 .bb-custom-icon-first:before {
 	-webkit-transform: rotate(180deg);

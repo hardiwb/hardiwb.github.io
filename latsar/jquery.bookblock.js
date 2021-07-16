@@ -457,6 +457,11 @@
 		toggleS.classList.toggle('active')
 		},
 		
+		menuactive : function() {
+		const toggleA = document.querySelector('.bb-custom-icon-list');
+		toggleA.classList.toggle('active')
+		},
+		
 		// public method: goes to the first page
 		first : function() {
 			this.jump( 1 );
